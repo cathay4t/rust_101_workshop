@@ -27,3 +27,7 @@ path = "src/ref_cell.rs"
 [[bin]]
 name = "deref"
 path = "src/deref.rs"
+
+[[bin]]
+name = "once"
+path = "src/once.rs"
