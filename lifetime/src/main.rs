@@ -13,7 +13,7 @@ impl<'a> DataBank<'a> {
     }
 }
 
-fn get_bank_data<'a>(bank: 'a DataBank, key: &str) -> Option<&'a str> {
+fn get_bank_data<'a>(bank: &'a DataBank, key: &str) -> Option<&'a str> {
     bank.data.get(key).map(|s| s.as_str())
 }
 
