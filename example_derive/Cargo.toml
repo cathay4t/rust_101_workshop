@@ -1,0 +1,17 @@
+[package]
+name = "example_derive"
+description = "Example derives for using JSON as Display"
+edition = "2024"
+
+[dependencies]
+quote = "1.0"
+
+[dependencies.syn]
+version = "2.0"
+default-features = false
+features = [ "derive", "parsing", "proc-macro" ]
+
+[lib]
+name = "json_display_derive"
+path = "lib.rs"
+proc-macro = true
