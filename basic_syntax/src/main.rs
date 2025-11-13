@@ -5,6 +5,7 @@ fn count_odd(data: &[u16]) -> usize {
 }
 
 fn main() {
+    // https://doc.rust-lang.org/std/marker/trait.Copy.html
     let a: [u16; 4] = [1u16, 2, 3, 4];
 
     let count = count_odd(&a);
