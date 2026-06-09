@@ -1,0 +1,6 @@
+[package]
+name = "practice_3_sort_opt_vec"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
